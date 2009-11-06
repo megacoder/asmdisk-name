@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/sbin/oracleasm listdisks | xargs -r /usr/sbin/oracleasm querydisk -p
